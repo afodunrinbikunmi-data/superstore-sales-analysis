@@ -85,9 +85,9 @@ DIVIDE(SUM(Orders[Sales]) - PreviousYearSales, PreviousYearSales, 0)
 - **Q4 dominates every year** — Nov-Dec peak consistent all 4 years
 
 ## Recommendations
-1. Cap discounts at 10% maximum — implement governance and manager approval
-2. Restructure Africa and EMEA — raise prices, cut shipping costs, focus on margins
-3. Build a seasonal commercial calendar — plan around the predictable Q4 peak
+- Cap discounts at 10% maximum — implement governance and manager approval
+- Restructure Africa and EMEA — raise prices, cut shipping costs, focus on margins
+- Build a seasonal commercial calendar — plan around the predictable Q4 peak
 
 ## Dashboard / Visualization
 The Power BI dashboard contains 4 report pages:
