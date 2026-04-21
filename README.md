@@ -103,7 +103,7 @@ While this analysis provides deep insights into the profitability crisis, severa
 │   ├── global_performance.png
 │   └── trends_over_time.png
 └── README.md
-
+```
 
 ## About me
 Afodunrinbi Samad Akinkunmi
