@@ -108,4 +108,4 @@ While this analysis provides deep insights into the profitability crisis, severa
 ## About me
 Afodunrinbi Samad Akinkunmi
 Data Analyst | Excel | Power BI
-[Medium Article Link]
+[LinkedIn] | [Medium Article Link]
