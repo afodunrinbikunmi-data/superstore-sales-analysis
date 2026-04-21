@@ -59,14 +59,16 @@ Fact Table: Orders (Transactional data).
 Dimension Tables: Returns (linked via Order ID) and People (linked via Region).
 Relationship Logic: All relationships are Many with cross-filter direction set to "Single" to maintain model performance and data integrity.
 The following measures were engineered to drive the dashboard's KPIs:
-- Total Profit: = SUM(Orders[Profit])
-- Profit Margin % = DIVIDE([Total Profit], SUM(Orders[Sales]), 0)
-- Year-over-Year (YoY) Sales Growth: YoY Sales Growth =  VAR PreviousYearSales = CALCULATE(SUM(Orders[Sales]), SAMEPERIODLASTYEAR('Date'[Date]))
-RETURN
-DIVIDE(SUM(Orders[Sales]) - PreviousYearSales, PreviousYearSales, 0)
-- Unprofitable Orders = CALCULATE(COUNTROWS(Orders), Orders[Profit] < 0)
-- Unprofitable Rate % = DIVIDE([Unprofitable Orders], COUNTROWS(Orders), 0)
-
+· Total Sales
+· Total Profit
+· Profit Margin
+· YoY Growth
+· Unprofitable Orders
+· Unprofitable Rate %
+· YoY Sales Growth
+· Return Rate %
+· Avg Delivery Days
+· Profit per Order
 
 ## Key Questions & Analysis
 - Which products and sub-categories are profitable vs loss-making?
