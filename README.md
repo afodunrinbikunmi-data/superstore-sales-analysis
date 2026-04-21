@@ -88,7 +88,9 @@ While this analysis provides deep insights into the profitability crisis, severa
 * **Fixed Logistics:** Shipping costs are recorded as static values per order, which does not reflect real-world variables like fuel surcharges or bulk-freight negotiated rates.
 * **Customer Context:** Missing demographic data (age, income, industry) limits the ability to perform a full **Customer Lifetime Value (CLV)** analysis beyond basic purchase history.
 
-## Project Structure
+### Project Structure
+
+```text
 ├── data/
 │   └── global_superstore.xlsx
 ├── dashboard/
