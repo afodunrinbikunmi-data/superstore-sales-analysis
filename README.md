@@ -52,7 +52,7 @@ strong sales growth.
 The raw data was transformed to ensure analytical readiness. Key steps included:
 - Feature Engineering: Created the Discount Band using conditional logic to segment orders into No (0%), Low (0.1-20%), Medium (21-50%), and High (>50%) categories.
 - Date Normalization: Extracted Year, Month, and Quarter from the Order Date for time-series consistency.
-Relationship Cleanup: Standardized Region names across the Orders and People tables to ensure a clean 1:Many relationship.
+Relationship Cleanup: Standardized Region names across the Orders and People tables to ensure a clean Many relationship
 ## Data Modeling
 A Star Schema was implemented in Power BI:
 Fact Table: Orders (Transactional data).
