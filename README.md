@@ -42,12 +42,12 @@ strong sales growth.
 - Verified and corrected date and numeric column formats
 - Identified 3-table relational structure for Power BI modelling
 - Engineered 5 calculated columns in Excel:
-  - `profit_margin_pct` — Profit ÷ Sales × 100
-  - `delivery_days` — Ship Date minus Order Date
-  - `revenue_band` — High / Medium / Low by sales value
-  - `profit_status` — Profit or Loss flag
-  - `discount_band` — No / Low / Medium / High discount
-  - 
+  - profit_margin_pct` — Profit ÷ Sales × 100
+  - delivery_days` — Ship Date minus Order Date
+  - revenue_band` — High / Medium / Low by sales value
+  - profit_status` — Profit or Loss flag
+  - discount_band` — No / Low / Medium / High discount
+
 ## Data Engineering (Power Query)
 The raw data was transformed to ensure analytical readiness. Key steps included:
 - Feature Engineering: Created the Discount Band using conditional logic to segment orders into No (0%), Low (0.1-20%), Medium (21-50%), and High (>50%) categories.
