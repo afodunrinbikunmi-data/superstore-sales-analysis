@@ -1,4 +1,4 @@
-# Global Superstore Sales Analysis: Identifying Revenue Leakage and Market Inefficiency
+## Global Superstore Sales Analysis: Identifying Revenue Leakage and Market Inefficiency
 Revenue is vanity, profit is sanity. This project uncovers how a global retailer managed to generate $12.6M in sales while over half of its transactions were actually losing money. Uncovered that 52% of orders were unprofitable due to undisciplined discounting and identified $136K+ in losses across Africa/EMEA markets.
 
 ## Project Summary
