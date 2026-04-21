@@ -1,5 +1,5 @@
 # superstore-sales-dashboard
-Business Intelligence analysis of a $12.6M retail dataset. Uncovered that 52% of orders were unprofitable due to undisciplined discounting and identified $136K+ in losses across Africa/EMEA markets. Includes DAX modeling and strategic recovery plans
+Revenue is vanity, profit is sanity. This project uncovers how a global retailer managed to generate $12.6M in sales while over half of its transactions were actually losing money. Uncovered that 52% of orders were unprofitable due to undisciplined discounting and identified $136K+ in losses across Africa/EMEA markets.
 
 ## Project Summary
 A comprehensive sales performance analysis of a global superstore
