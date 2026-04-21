@@ -47,6 +47,8 @@ strong sales growth.
   - `revenue_band` — High / Medium / Low by sales value
   - `profit_status` — Profit or Loss flag
   - `discount_band` — No / Low / Medium / High discount
+ 
+## Data Modeling (Power Query)
 
 ## Key Questions & Analysis
 1. Which products and sub-categories are profitable vs loss-making?
