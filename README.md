@@ -47,15 +47,33 @@ strong sales growth.
   - `revenue_band` — High / Medium / Low by sales value
   - `profit_status` — Profit or Loss flag
   - `discount_band` — No / Low / Medium / High discount
- 
-## Data Modeling (Power Query)
+  - 
+## Data Engineering (Power Query)
+The raw data was transformed to ensure analytical readiness. Key steps included:
+- Feature Engineering: Created the Discount Band using conditional logic to segment orders into No (0%), Low (0.1-20%), Medium (21-50%), and High (>50%) categories.
+- Date Normalization: Extracted Year, Month, and Quarter from the Order Date for time-series consistency.
+Relationship Cleanup: Standardized Region names across the Orders and People tables to ensure a clean 1:Many relationship.
+## Data Modeling
+A Star Schema was implemented in Power BI:
+Fact Table: Orders (Transactional data).
+Dimension Tables: Returns (linked via Order ID) and People (linked via Region).
+Relationship Logic: All relationships are Many with cross-filter direction set to "Single" to maintain model performance and data integrity.
+The following measures were engineered to drive the dashboard's KPIs:
+- Total Profit: = SUM(Orders[Profit])
+- Profit Margin % = DIVIDE([Total Profit], SUM(Orders[Sales]), 0)
+- Year-over-Year (YoY) Sales Growth: YoY Sales Growth =  VAR PreviousYearSales = CALCULATE(SUM(Orders[Sales]), SAMEPERIODLASTYEAR('Date'[Date]))
+RETURN
+DIVIDE(SUM(Orders[Sales]) - PreviousYearSales, PreviousYearSales, 0)
+- Unprofitable Orders = CALCULATE(COUNTROWS(Orders), Orders[Profit] < 0)
+- Unprofitable Rate % = DIVIDE([Unprofitable Orders], COUNTROWS(Orders), 0)
+
 
 ## Key Questions & Analysis
-1. Which products and sub-categories are profitable vs loss-making?
-2. Which global markets generate losses despite high sales?
-3. How does discounting affect profit margins across categories?
-4. Is the business growing sustainably year on year?
-5. What seasonal patterns exist and how predictable are they?
+- Which products and sub-categories are profitable vs loss-making?
+- Which global markets generate losses despite high sales?
+- How does discounting affect profit margins across categories?
+- Is the business growing sustainably year on year?
+- What seasonal patterns exist and how predictable are they?
 
 ## Key Insights
 - **52% of orders are unprofitable** — 13K of 25K total orders lose money
