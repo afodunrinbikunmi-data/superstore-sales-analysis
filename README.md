@@ -81,6 +81,13 @@ The Power BI dashboard contains 4 report pages:
 | Global Performance | World map, market and regional profitability |
 | Trends Over Time | Monthly trends, YoY growth, seasonal patterns |
 
+## Limitations
+While this analysis provides deep insights into the profitability crisis, several data constraints should be noted:
+* **Financial Granularity:** The dataset lacks a breakdown of **COGS (Cost of Goods Sold)** and specific overheads, meaning profit is analyzed at a transactional level without visibility into manufacturing or storage costs.
+* **Macroeconomic Factors:** As a global dataset, the results do not account for **currency fluctuations** or inflation rates in markets like Africa and EMEA between 2011 and 2014, which may have impacted localized profitability.
+* **Fixed Logistics:** Shipping costs are recorded as static values per order, which does not reflect real-world variables like fuel surcharges or bulk-freight negotiated rates.
+* **Customer Context:** Missing demographic data (age, income, industry) limits the ability to perform a full **Customer Lifetime Value (CLV)** analysis beyond basic purchase history.
+
 ## Project Structure
 ├── data/
 │   └── global_superstore.xlsx
@@ -95,6 +102,7 @@ The Power BI dashboard contains 4 report pages:
 │   └── trends_over_time.png
 └── README.md
 
-## Afodunrinbi Samad Akinkunmi
+## About me
+Afodunrinbi Samad Akinkunmi
 Data Analyst | Excel | Power BI
-[LinkedIn] | [Medium Article]
+[Medium Article Link]
