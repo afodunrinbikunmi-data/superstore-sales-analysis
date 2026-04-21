@@ -80,3 +80,19 @@ The Power BI dashboard contains 4 report pages:
 | Trends Over Time | Monthly trends, YoY growth, seasonal patterns |
 
 ## Project Structure
+├── data/
+│   └── global_superstore.xlsx
+├── dashboard/
+│   └── superstore_dashboard.pbix
+├── report/
+│   └── Superstore_Sales_Analysis.pptx
+├── screenshots/
+│   ├── executive_summary.png
+│   ├── product_analysis.png
+│   ├── global_performance.png
+│   └── trends_over_time.png
+└── README.md
+
+## Afodunrinbi Samad Akinkunmi
+Data Analyst | Excel | Power BI
+[LinkedIn] | [Medium Article]
