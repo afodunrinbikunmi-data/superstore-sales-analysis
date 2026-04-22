@@ -12,7 +12,7 @@ A comprehensive sales performance analysis of a global superstore covering 51,29
 | Returns | 1,174 | Returned order records |
 | People | 15 | Regional manager assignments |
 
-**Period:** January 2011 — December 2014
+**Period:** January 2011 — December 2014  
 **Coverage:** Global — all major markets and continents
 
 ## Key Columns in the Dataset
