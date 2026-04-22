@@ -3,7 +3,7 @@ Revenue is vanity, profit is sanity. This project uncovers how a global retailer
 
 ## Project Summary
 A comprehensive sales performance analysis of a global superstore covering 51,290 orders across 7 markets, 3 product categories, and
-4 years (2011–2014). The goal was to identify what drives revenue and profitability — and where the business is losing money despite strong sales growth.
+4 years (2011–2014). The goal was to identify what drives revenue and profitability and where the business is losing money despite strong sales growth.
 
 ## Dataset Overview
 | Table | Rows | Description |
