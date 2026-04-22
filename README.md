@@ -2,11 +2,8 @@
 Revenue is vanity, profit is sanity. This project uncovers how a global retailer managed to generate $12.6M in sales while over half of its transactions were actually losing money. Uncovered that 52% of orders were unprofitable due to undisciplined discounting and identified $136K+ in losses across Africa/EMEA markets.
 
 ## Project Summary
-A comprehensive sales performance analysis of a global superstore
-covering 51,290 orders across 7 markets, 3 product categories, and
-4 years (2011–2014). The goal was to identify what drives revenue
-and profitability — and where the business is losing money despite
-strong sales growth.
+A comprehensive sales performance analysis of a global superstore covering 51,290 orders across 7 markets, 3 product categories, and
+4 years (2011–2014). The goal was to identify what drives revenue and profitability — and where the business is losing money despite strong sales growth.
 
 ## Dataset Overview
 | Table | Rows | Description |
@@ -52,7 +49,8 @@ strong sales growth.
 The raw data was transformed to ensure analytical readiness. Key steps included:
 - Feature Engineering: Created the Discount Band using conditional logic to segment orders into No (0%), Low (0.1-20%), Medium (21-50%), and High (>50%) categories.
 - Date Normalization: Extracted Year, Month, and Quarter from the Order Date for time-series consistency.
-Relationship Cleanup: Standardized Region names across the Orders and People tables to ensure a clean Many relationship
+- Relationship Cleanup: Standardized Region names across the Orders and People tables to ensure a clean Many relationship
+
 ## Data Modeling
 A Star Schema was implemented in Power BI:
 - Fact Table: Orders (Transactional data).
@@ -127,5 +125,5 @@ While this analysis provides deep insights into the profitability crisis, severa
 
 ## About me
 Afodunrinbi Samad Akinkunmi
-Data Analyst | Excel | Power BI
-[LinkedIn] | [Medium Article Link]
+ Data Analyst | Excel | Power BI
+- [LinkedIn] | [Medium Article Link]
