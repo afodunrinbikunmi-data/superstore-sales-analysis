@@ -8,9 +8,9 @@ A comprehensive sales performance analysis of a global superstore covering 51,29
 ## Dataset Overview
 | Table | Rows | Description |
 |---|---|---|
-| Orders | 51,290 | Primary fact table — all transactional data |
-| Returns | 1,174 | Returned order records |
-| People | 15 | Regional manager assignments |
+| **Orders** | 51,290 | Primary fact table — all transactional data |
+| **Returns** | 1,174 | Returned order records |
+| **People** | 15 | Regional manager assignments |
 
 **Period:** January 2011 — December 2014  
 **Coverage:** Global — all major markets and continents
@@ -18,55 +18,55 @@ A comprehensive sales performance analysis of a global superstore covering 51,29
 ## Key Columns in the Dataset
 | Column | Description |
 |---|---|
-| order_id | Unique order identifier |
-| order_date / ship_date | Order and shipment dates |
-| customer_name / segment | Customer details |
-| category / sub_category | Product classification |
-| sales / profit / discount | Core financial metrics |
-| market / region / country | Geographic hierarchy |
-| ship_mode / shipping_cost | Logistics data |
+| **order_id** | Unique order identifier |
+| **order_date / ship_date** | Order and shipment dates |
+| **customer_name / segment** | Customer details |
+| **category / sub_category** | Product classification |
+| **sales / profit / discount** | Core financial metrics |
+| **market / region / country** | Geographic hierarchy |
+| **ship_mode / shipping_cost** | Logistics data |
 
 ## Tools Used
 | Tool | Purpose |
 |---|---|
-| Microsoft Excel | Data profiling, cleaning, calculated columns, PivotTable analysis |
-| Microsoft Power BI | Data modelling, DAX measures, interactive dashboard |
-| Power Query | Table relationships and data transformation |
-| DAX | Custom KPI measures and time intelligence |
+| **Microsoft Excel** | Data profiling, cleaning, calculated columns, PivotTable analysis |
+| **Microsoft Power BI** | Data modelling, DAX measures, interactive dashboard |
+| **Power Query** | Table relationships and data transformation |
+| **DAX** | Custom KPI measures and time intelligence |
 
 ## Data Cleaning & Preparation
 - Confirmed 51,290 rows and 21 columns with no missing values
 - Verified and corrected date and numeric column formats
 - Identified 3-table relational structure for Power BI modelling
 - Engineered 5 calculated columns in Excel:
-  - profit_margin_pct — Profit ÷ Sales × 100
-  - delivery_days — Ship Date minus Order Date
-  - revenue_band — High / Medium / Low by sales value
-  - profit_status — Profit or Loss flag
-  - discount_band — No / Low / Medium / High discount
+  - **`profit_margin_pct`** — Profit ÷ Sales × 100
+  - **`delivery_days`** — Ship Date minus Order Date
+  - **`revenue_band`** — High / Medium / Low by sales value
+  - **`profit_status`** — Profit or Loss flag
+  - **`discount_band`** — No / Low / Medium / High discount
 
 ## Data Engineering (Power Query)
 The raw data was transformed to ensure analytical readiness. Key steps included:
-- Feature Engineering: Created the Discount Band using conditional logic to segment orders into No (0%), Low (0.1-20%), Medium (21-50%), and High (>50%) categories.
-- Date Normalization: Extracted Year, Month, and Quarter from the Order Date for time-series consistency.
-- Relationship Cleanup: Standardized Region names across the Orders and People tables to ensure a clean Many relationship
+- **Feature Engineering**: Created the Discount Band using conditional logic to segment orders into No (0%), Low (0.1-20%), Medium (21-50%), and High (>50%) categories.
+- **Date Normalization**: Extracted Year, Month, and Quarter from the Order Date for time-series consistency.
+- **Relationship Cleanup**: Standardized Region names across the Orders and People tables to ensure a clean Many relationship
 
 ## Data Modeling
 A Star Schema was implemented in Power BI:
-- Fact Table: Orders (Transactional data).
-- Dimension Tables: Returns (linked via Order ID) and People (linked via Region).
-- Relationship Logic: All relationships are Many with cross-filter direction set to "Single" to maintain model performance and data integrity.
+- **Fact Table**: Orders (Transactional data).
+- **Dimension Tables**: Returns (linked via Order ID) and People (linked via Region).
+- **Relationship Logic**: All relationships are Many with cross-filter direction set to "Single" to maintain model performance and data integrity.
 The following measures were engineered to drive the dashboard's KPIs:
- - Total Sales
- - Total Profit
- - Profit Margin
- - YoY Growth
- - Unprofitable Orders
- - Unprofitable Rate %
- - YoY Sales Growth
- - Return Rate %
- - Avg Delivery Days
- - Profit per Order
+ - **Total Sales**
+ - **Total Profit**
+ - **Profit Margin**
+ - **YoY Growth**
+ - **Unprofitable Orders**
+ - **Unprofitable Rate %**
+ - **YoY Sales Growth**
+ - **Return Rate %**
+ - **Avg Delivery Days**
+ - **Profit per Order**
 
 ## Key Questions & Analysis
 - Which products and sub-categories are profitable vs loss-making?
@@ -94,10 +94,10 @@ The Power BI dashboard contains 4 report pages:
 
 | Page | Focus |
 |---|---|
-| Executive Summary | KPIs, sales trend, category and market overview |
-| Product Analysis | Sub-category profit, discount impact matrix, scatter |
-| Global Performance | World map, market and regional profitability |
-| Trends Over Time | Monthly trends, YoY growth, seasonal patterns |
+| **Executive Summary** | KPIs, sales trend, category and market overview |
+| **Product Analysis** | Sub-category profit, discount impact matrix, scatter |
+| **Global Performance** | World map, market and regional profitability |
+| **Trends Over Time** | Monthly trends, YoY growth, seasonal patterns |
 
 ## Limitations
 While this analysis provides deep insights into the profitability crisis, several data constraints should be noted:
