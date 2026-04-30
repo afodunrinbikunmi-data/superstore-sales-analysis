@@ -57,16 +57,16 @@ A Star Schema was implemented in Power BI:
 - **Dimension Tables**: Returns (linked via Order ID) and People (linked via Region).
 - **Relationship Logic**: All relationships are Many with cross-filter direction set to "Single" to maintain model performance and data integrity.
 The following measures were engineered to drive the dashboard's KPIs:
- - **Total Sales**
- - **Total Profit**
- - **Profit Margin**
- - **YoY Growth**
- - **Unprofitable Orders**
- - **Unprofitable Rate %**
- - **YoY Sales Growth**
- - **Return Rate %**
- - **Avg Delivery Days**
- - **Profit per Order**
+ - **`Total Sales`**
+ - **`Total Profit`**
+ - **`Profit Margin`**
+ - **`YoY Growth`**
+ - **`Unprofitable Orders`**
+ - **`Unprofitable Rate %`**
+ - **`YoY Sales Growth`**
+ - **`Return Rate %`**
+ - **`Avg Delivery Days`**
+ - **`Profit per Order`**
 
 ## Key Questions & Analysis
 - Which products and sub-categories are profitable vs loss-making?
