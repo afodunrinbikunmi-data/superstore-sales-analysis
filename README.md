@@ -69,6 +69,7 @@ The following measures were engineered to drive the dashboard's KPIs:
  - **`Return Rate %`**
  - **`Avg Delivery Days`**
  - **`Profit per Order`**
+![Image Description]()
 
 ## Key Questions & Analysis
 - Which products and sub-categories are profitable vs loss-making?
