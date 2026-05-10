@@ -69,7 +69,7 @@ The following measures were engineered to drive the dashboard's KPIs:
  - **`Return Rate %`**
  - **`Avg Delivery Days`**
  - **`Profit per Order`**
-![Image Description]()
+![Image Description](https://github.com/afodunrinbikunmi-data/superstore-sales-analysis/blob/main/new%20measure%20table%20superstore.PNG)
 
 ## Key Questions & Analysis
 - Which products and sub-categories are profitable vs loss-making?
@@ -94,13 +94,18 @@ The following measures were engineered to drive the dashboard's KPIs:
 
 ## Dashboard / Visualization
 The Power BI dashboard contains 4 report pages:
+![Image Description]()
 
 | Page | Focus |
 |---|---|
 | **Executive Summary** | KPIs, sales trend, category and market overview |
+![Image Description](https://github.com/afodunrinbikunmi-data/superstore-sales-analysis/blob/main/executive%20summary%20dashboard%201.png)
 | **Product Analysis** | Sub-category profit, discount impact matrix, scatter |
+![Image Description](https://github.com/afodunrinbikunmi-data/superstore-sales-analysis/blob/main/product%20analysis%20dashboard%20new%201.png)
 | **Global Performance** | World map, market and regional profitability |
+![Image Description](https://github.com/afodunrinbikunmi-data/superstore-sales-analysis/blob/main/global%20performance%20dashboard%201.png)
 | **Trends Over Time** | Monthly trends, YoY growth, seasonal patterns |
+![Image Description](https://github.com/afodunrinbikunmi-data/superstore-sales-analysis/blob/main/trends%20over%20time%20dashboard%201.png)
 
 ## Limitations
 While this analysis provides deep insights into the profitability crisis, several data constraints should be noted:
