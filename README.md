@@ -114,6 +114,13 @@ While this analysis provides deep insights into the profitability crisis, severa
 * **Fixed Logistics:** Shipping costs are recorded as static values per order, which does not reflect real-world variables like fuel surcharges or bulk-freight negotiated rates.
 * **Customer Context:** Missing demographic data (age, income, industry) limits the ability to perform a full **Customer Lifetime Value (CLV)** analysis beyond basic purchase history.
 
+## Conclusion
+- **The Profitability Gap**: Identified that while revenue is scaling rapidly, profit is leaking through loss-making product categories and underperforming regional markets.
+
+- **Operational Diagnosis**: Uncovered a "reactive" seasonal cycle; the business currently responds to demand shifts rather than using predictive planning to protect margins.
+
+- **Data-Driven Visibility**: Transformed raw data into a diagnostic tool that makes hidden losses visible and actionable for stakeholders.
+
 ### Project Structure
 
 ```text
@@ -123,7 +130,7 @@ While this analysis provides deep insights into the profitability crisis, severa
 │   └── superstore_dashboard.pbix
 ├── report/
 │   └── Superstore_Sales_Analysis.pptx
-├── screenshots/
+├── png/
 │   ├── executive_summary.png
 │   ├── product_analysis.png
 │   ├── global_performance.png
