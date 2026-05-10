@@ -94,7 +94,7 @@ The following measures were engineered to drive the dashboard's KPIs:
 
 ## Dashboard / Visualization
 The Power BI dashboard contains 4 report pages:
-![Image Description]()
+![Image Description](https://github.com/afodunrinbikunmi-data/superstore-sales-analysis/blob/main/DASHBOARD%201%20(32).png)
 
 | Page | Focus |
 |---|---|
