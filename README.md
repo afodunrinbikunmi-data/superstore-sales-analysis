@@ -77,6 +77,7 @@ The following measures were engineered to drive the dashboard's KPIs:
 - How does discounting affect profit margins across categories?
 - Is the business growing sustainably year on year?
 - What seasonal patterns exist and how predictable are they?
+![Image Description](https://github.com/afodunrinbikunmi-data/superstore-sales-analysis/blob/main/superstore_pivot%20table.png)
 
 ## Key Insights
 - **52% of orders are unprofitable** — 13K of 25K total orders lose money
