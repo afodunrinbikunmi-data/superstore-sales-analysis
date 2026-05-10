@@ -56,7 +56,7 @@ A Star Schema was implemented in Power BI:
 - **Fact Table**: Orders (Transactional data).
 - **Dimension Tables**: Returns (linked via Order ID) and People (linked via Region).
 - **Relationship Logic**: All relationships are Many with cross-filter direction set to "Single" to maintain model performance and data integrity.
-![Image Description]()
+![Image Description](star schema superstore.PNG)
 The following measures were engineered to drive the dashboard's KPIs:
  - **`Total Sales`**
  - **`Total Profit`**
