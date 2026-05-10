@@ -140,5 +140,6 @@ While this analysis provides deep insights into the profitability crisis, severa
 
 ## About me
 Afodunrinbi Samad Akinkunmi
- Data Analyst | Excel | Power BI
+I am a Certified Data Analyst with a strong passion for transforming raw data into meaningful insights that support informed decision-making. My work focuses on exploring datasets, identifying patterns, and communicating findings in a clear and impactful way. I enjoy approaching problems analytically, breaking them down into structured steps, and uncovering the story behind the data. Beyond data analysis, I am actively expanding towards becoming a Data Scientist, with an interest in building predictive modeling and advanced analytics.
+Data Analyst | Excel | Power BI | Python | SQL | Figma
 - [LinkedIn](https://www.linkedin.com/in/akinkunmiafod) | [Medium Article Link](https://medium.com/@afodunrinbikunmi/global-superstore-sales-analysis-identifying-revenue-leakage-and-market-inefficiency-e7b9bdc4e41d)
