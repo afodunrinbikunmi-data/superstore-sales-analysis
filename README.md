@@ -97,15 +97,15 @@ The following measures were engineered to drive the dashboard's KPIs:
 The Power BI dashboard contains 4 report pages:
 ![Image Description](https://github.com/afodunrinbikunmi-data/superstore-sales-analysis/blob/main/DASHBOARD%201%20(32).png)
 
-| Page | Focus |
-|---|---|
-| **Executive Summary** | KPIs, sales trend, category and market overview |
+**Visualization**
+
+**Executive Summary**: KPIs, sales trend, category and market overview
 ![Image Description](https://github.com/afodunrinbikunmi-data/superstore-sales-analysis/blob/main/executive%20summary%20dashboard%201.png)
-| **Product Analysis** | Sub-category profit, discount impact matrix, scatter |
+**Product Analysis**: Sub-category profit, discount impact matrix, scatter
 ![Image Description](https://github.com/afodunrinbikunmi-data/superstore-sales-analysis/blob/main/product%20analysis%20dashboard%20new%201.png)
-| **Global Performance** | World map, market and regional profitability |
+**Global Performance**: World map, market and regional profitability
 ![Image Description](https://github.com/afodunrinbikunmi-data/superstore-sales-analysis/blob/main/global%20performance%20dashboard%201.png)
-| **Trends Over Time** | Monthly trends, YoY growth, seasonal patterns |
+**Trends Over Time**: Monthly trends, YoY growth, seasonal patterns
 ![Image Description](https://github.com/afodunrinbikunmi-data/superstore-sales-analysis/blob/main/trends%20over%20time%20dashboard%201.png)
 
 ## Limitations
@@ -147,4 +147,4 @@ I am a Certified Data Analyst with a strong passion for transforming raw data in
 
 Data Analyst | Excel | Power BI | Python | SQL | Figma
 
-Connect With Me On - [LinkedIn](https://www.linkedin.com/in/akinkunmiafod) | [Medium](https://medium.com/@afodunrinbikunmi) | [Gmail](afodunrinbikunmi@gmail.com)
+Connect With Me On - [LinkedIn](https://www.linkedin.com/in/akinkunmiafod) | [Medium](https://medium.com/@afodunrinbikunmi) | Gmail: afodunrinbikunmi@gmail.com
