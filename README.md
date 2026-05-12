@@ -93,19 +93,16 @@ The following measures were engineered to drive the dashboard's KPIs:
 - Restructure Africa and EMEA — raise prices, cut shipping costs, focus on margins
 - Build a seasonal commercial calendar — plan around the predictable Q4 peak
 
-## Dashboard / Visualization
-The Power BI dashboard contains 4 report pages:
-![Image Description](https://github.com/afodunrinbikunmi-data/superstore-sales-analysis/blob/main/DASHBOARD%201%20(32).png)
 
-**Visualization**
+## Dashboard/Visualization
 
-**Executive Summary**: KPIs, sales trend, category and market overview
+- **Executive Summary**: KPIs, sales trend, category and market overview
 ![Image Description](https://github.com/afodunrinbikunmi-data/superstore-sales-analysis/blob/main/executive%20summary%20dashboard%201.png)
-**Product Analysis**: Sub-category profit, discount impact matrix, scatter
+- **Product Analysis**: Sub-category profit, discount impact matrix, scatter
 ![Image Description](https://github.com/afodunrinbikunmi-data/superstore-sales-analysis/blob/main/product%20analysis%20dashboard%20new%201.png)
-**Global Performance**: World map, market and regional profitability
+- **Global Performance**: World map, market and regional profitability
 ![Image Description](https://github.com/afodunrinbikunmi-data/superstore-sales-analysis/blob/main/global%20performance%20dashboard%201.png)
-**Trends Over Time**: Monthly trends, YoY growth, seasonal patterns
+- **Trends Over Time**: Monthly trends, YoY growth, seasonal patterns
 ![Image Description](https://github.com/afodunrinbikunmi-data/superstore-sales-analysis/blob/main/trends%20over%20time%20dashboard%201.png)
 
 ## Limitations
