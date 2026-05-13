@@ -88,12 +88,6 @@ The following measures were engineered to drive the dashboard's KPIs:
 - **Profit not keeping pace with sales** — unsustainable growth trajectory
 - **Q4 dominates every year** — Nov-Dec peak consistent all 4 years
 
-## Recommendations
-- Cap discounts at 10% maximum — implement governance and manager approval
-- Restructure Africa and EMEA — raise prices, cut shipping costs, focus on margins
-- Build a seasonal commercial calendar — plan around the predictable Q4 peak
-
-
 ## Dashboard/Visualization
 The Power BI dashboard contains 4 report pages:
 
@@ -108,12 +102,6 @@ The Power BI dashboard contains 4 report pages:
 - **Trends Over Time**: Monthly trends, YoY growth, seasonal patterns
 ![Image Description](https://github.com/afodunrinbikunmi-data/superstore-sales-analysis/blob/main/trends%20over%20time%20dashboard%201.png)
 
-## Limitations
-While this analysis provides deep insights into the profitability crisis, several data constraints should be noted:
-* **Financial Granularity:** The dataset lacks a breakdown of **COGS (Cost of Goods Sold)** and specific overheads, meaning profit is analyzed at a transactional level without visibility into manufacturing or storage costs.
-* **Macroeconomic Factors:** As a global dataset, the results do not account for **currency fluctuations** or inflation rates in markets like Africa and EMEA between 2011 and 2014, which may have impacted localized profitability.
-* **Fixed Logistics:** Shipping costs are recorded as static values per order, which does not reflect real-world variables like fuel surcharges or bulk-freight negotiated rates.
-* **Customer Context:** Missing demographic data (age, income, industry) limits the ability to perform a full **Customer Lifetime Value (CLV)** analysis beyond basic purchase history.
 
 ## Conclusion
 - **The Profitability Gap**: Identified that while revenue is scaling rapidly, profit is leaking through loss-making product categories and underperforming regional markets.
@@ -123,6 +111,19 @@ While this analysis provides deep insights into the profitability crisis, severa
 - **Data-Driven Visibility**: Transformed raw data into a diagnostic tool that makes hidden losses visible and actionable for stakeholders.
 
 [Read The Full Article Medium](https://medium.com/@afodunrinbikunmi/global-superstore-sales-analysis-identifying-revenue-leakage-and-market-inefficiency-e7b9bdc4e41d)
+
+## Recommendations
+- **Cap discounts at 10% maximum** — implement governance and manager approval
+- **Restructure Africa and EMEA** — raise prices, cut shipping costs, focus on margins
+- **Build a seasonal commercial calendar** — plan around the predictable Q4 peak
+
+
+## Limitations
+While this analysis provides deep insights into the profitability crisis, several data constraints should be noted:
+* **Financial Granularity:** The dataset lacks a breakdown of **COGS (Cost of Goods Sold)** and specific overheads, meaning profit is analyzed at a transactional level without visibility into manufacturing or storage costs.
+* **Macroeconomic Factors:** As a global dataset, the results do not account for **currency fluctuations** or inflation rates in markets like Africa and EMEA between 2011 and 2014, which may have impacted localized profitability.
+* **Fixed Logistics:** Shipping costs are recorded as static values per order, which does not reflect real-world variables like fuel surcharges or bulk-freight negotiated rates.
+* **Customer Context:** Missing demographic data (age, income, industry) limits the ability to perform a full **Customer Lifetime Value (CLV)** analysis beyond basic purchase history.
 
 ### Project Structure
 
